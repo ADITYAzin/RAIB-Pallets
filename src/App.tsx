@@ -91,6 +91,48 @@ const gallerySlides = [
     image: '/WhatsApp Image 2026-10-24 at 21.29.28.jpeg',
     alt: 'Inspeksi akhir produk pallet RAIB',
   },
+  {
+    id: '12',
+    title: 'Penyimpanan Skala Besar',
+    caption: 'Kapasitas gudang luas untuk menampung ribuan pallet siap distribusi kapan saja.',
+    image: '/WhatsApp Image 2026-10-25 at 08.21.36.jpeg',
+    alt: 'Area penyimpanan pallet skala besar di gudang RAIB',
+  },
+  {
+    id: '13',
+    title: 'Stok Pallet Siap Kirim',
+    caption: 'Penataan tumpukan pallet secara presisi untuk mempercepat alur pengambilan stok.',
+    image: '/WhatsApp Image 2026-10-25 at 08.23.04.jpeg',
+    alt: 'Susunan stok pallet siap kirim RAIB',
+  },
+  {
+    id: '14',
+    title: 'Uji Desain & Kaki Pallet',
+    caption: 'Pemeriksaan struktur kaki dan lubang masuk forklift agar manuver pemindahan stabil.',
+    image: '/WhatsApp Image 2026-10-25 at 08.25.53.jpeg',
+    alt: 'Pemeriksaan struktur kaki pallet RAIB',
+  },
+  {
+    id: '15',
+    title: 'Proses Pemuatan Armada',
+    caption: 'Kegiatan pemuatan langsung ke truk logistik untuk pengiriman cepat ke fasilitas pelanggan.',
+    image: '/WhatsApp Image 2026-10-25 at 08.32.08.jpeg',
+    alt: 'Proses muat pallet ke armada truk RAIB',
+  },
+  {
+    id: '16',
+    title: 'Efisiensi Muatan Transportasi',
+    caption: 'Penyusunan optimal di dalam ruang kargo guna memaksimalkan volume pengiriman tanpa risiko rusak.',
+    image: '/WhatsApp Image 2026-10-25 at 08.35.53.jpeg',
+    alt: 'Penyusunan pallet dalam kargo truk RAIB',
+  },
+  {
+    id: '17',
+    title: 'Pengukuran & Kontrol Dimensi',
+    caption: 'Pengukuran langsung oleh tim teknis guna memastikan setiap produk sesuai standar presisi.',
+    image: '/WhatsApp Image 2026-10-25 at 08.49.04.jpeg',
+    alt: 'Pengukuran dan kontrol dimensi pallet RAIB',
+  },
 ]
 
 function Arrow() {
