@@ -258,7 +258,7 @@ export default function App() {
         <div className="gallery-heading">
           <div>
             {/* <p className="eyebrow">Dokumentasi Operasional</p> */}
-            <h2>Galeri Kami</h2>
+            <h2>Galeri</h2>
           </div>
           <p>Dokumentasi penanganan dan aktivitas pengiriman pallet plastik RAIB.</p>
         </div>
@@ -351,7 +351,7 @@ export default function App() {
           <span>RAIB Pallets</span>
         </a>
         <p>Recycling At Its Best</p>
-        <p>© 2025 PT. Leo Graha Sukses Primatama</p>
+        <p>© 2026 PT. Leo Graha Sukses Primatama</p>
       </footer>
     </main>
   )
