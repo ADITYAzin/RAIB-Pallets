@@ -84,12 +84,13 @@ dd { font-weight: 600; }
 .slider-caption-num { color: var(--ink); font-family: 'Manrope', monospace; font-size: 13px; font-weight: 700; letter-spacing: .08em; }
 .slider-caption-note { color: var(--muted); font-size: 13px; }
 .contact {
+  align-items: center;
   background: #242b24;
   color: white;
   display: grid;
   gap: 8vw;
   grid-template-columns: .8fr 1.2fr;
-  padding: 120px 4vw 80px;
+  padding: 120px 4vw 120px;
 }
 .contact-heading-group {
   display: flex;
