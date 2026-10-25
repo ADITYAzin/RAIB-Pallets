@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 const products = [
   { model: 'SP25', dimension: '120 × 100 × 15 cm', staticLoad: '5.000 kg', dynamicLoad: '2.000 kg', access: '2 arah', image: '/top-sp25.png' },
   { model: 'SP16', dimension: '120 × 100 × 15 cm', staticLoad: '3.000 kg', dynamicLoad: '1.500 kg', access: '4 arah', image: '/top-sp16.png' },
-  { model: 'GP15', dimension: '120 × 100 × 15 cm', staticLoad: '1.500 kg', dynamicLoad: '1.000 kg', access: '4 arah', image: '/top-sp25.png' },
+  { model: 'GP15', dimension: '120 × 100 × 15 cm', staticLoad: '1.500 kg', dynamicLoad: '1.000 kg', access: '4 arah', image: '/top-sp16.png' },
 ]
 
 const benefits = [
