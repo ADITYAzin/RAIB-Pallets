@@ -101,12 +101,13 @@ dd { font-weight: 600; }
   max-width: 520px;
 }
 .contact-qr-wrapper {
-  align-items: flex-start;
+  align-items: center;
+  align-self: flex-end;
   display: flex;
   flex-direction: column;
   gap: 12px;
   margin-top: 40px;
-  width: fit-content;
+  width: 170px;
 }
 .contact-qr-img {
   border-radius: 8px;
@@ -118,11 +119,14 @@ dd { font-weight: 600; }
 }
 .contact-qr-caption {
   color: #929992;
-  font-size: 13px;
+  display: block;
+  font-size: 12.5px;
   font-weight: 500;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
   margin: 0;
-  text-align: left;
+  text-align: justify;
+  text-align-last: justify;
+  width: 100%;
 }
 .contact-locations {
   display: flex;
