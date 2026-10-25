@@ -318,14 +318,14 @@ export default function App() {
 
           <div className="gallery-slider-caption">
             <span className="slider-caption-num">{gallerySlides[currentSlide].id} / {String(gallerySlides.length).padStart(2, '0')}</span>
-            <span className="slider-caption-note">Aktivitas Pengiriman &amp; Distribusi Produk</span>
+            <span className="slider-caption-note">Galeri Kami</span>
           </div>
         </div>
       </section>
 
       <section className="contact" id="kontak">
         {/* <p className="eyebrow light">Indonesia · International</p> */}
-        <h2>Siap Memesan atau Punya Pertanyaan?</h2>
+        <h2>Kontak Kami</h2>
         <a className="button lime-button" href="mailto:beny@raib-pallets.com?subject=Pemesanan%20/%20Pertanyaan%20Pallet%20RAIB">Pesan atau Tanya Sekarang <Arrow /></a>
         <div className="contact-details">
           <div className="contact-locations">
