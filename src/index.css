@@ -122,7 +122,7 @@ dd { font-weight: 600; }
 .contact-qr-caption {
   color: #929992;
   display: flex;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   justify-content: space-between;
   margin: 0;
