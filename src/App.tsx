@@ -258,7 +258,7 @@ export default function App() {
         <div className="gallery-heading">
           <div>
             {/* <p className="eyebrow">Dokumentasi Operasional</p> */}
-            <h2>Pengiriman &amp;<br />Aktivitas Logistik</h2>
+            <h2>Galeri Kami</h2>
           </div>
           <p>Dokumentasi penanganan dan aktivitas pengiriman pallet plastik RAIB.</p>
         </div>
@@ -318,7 +318,7 @@ export default function App() {
 
           <div className="gallery-slider-caption">
             <span className="slider-caption-num">{gallerySlides[currentSlide].id} / {String(gallerySlides.length).padStart(2, '0')}</span>
-            <span className="slider-caption-note">Galeri Kami</span>
+            
           </div>
         </div>
       </section>
