@@ -135,7 +135,7 @@ export default function App() {
         <img src="/hero-1.jpeg" alt="Gudang industri dengan susunan pallet" />
         <div className="hero-shade" />
         <div className="hero-content">
-          <p className="eyebrow light">Raib pallets· Since 2004</p>
+          {/* <p className="eyebrow light">Raib pallets· Since 2004</p> */}
           <h1>Pallet Plastik Berkualitas</h1>
           <div className="hero-bottom">
             <p>Pallet plastik daur ulang untuk rantai pasok yang bergerak lebih efisien.</p>
