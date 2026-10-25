@@ -329,7 +329,11 @@ export default function App() {
           <h2>Kontak Kami</h2>
           <div className="contact-qr-wrapper">
             <img src="/wa-code.jpeg" alt="WhatsApp RAIB Pallets" className="contact-qr-img" />
-            <p className="contact-qr-caption">Kode QR Pemesanan</p>
+            <p className="contact-qr-caption">
+              <span>Kode</span>
+              <span>QR</span>
+              <span>Pemesanan</span>
+            </p>
           </div>
         </div>
 
