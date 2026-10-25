@@ -145,7 +145,7 @@ export default function App() {
 
       <section className="intro section" id="tentang">
         <div>
-          <p className="eyebrow">PT Leo Graha Sukses Primatama</p>
+          <p className="eyebrow">PT. Leo Graha Sukses Primatama</p>
           <h2>Tentang Kami</h2>
         </div>
         <div className="intro-copy">
@@ -309,7 +309,7 @@ export default function App() {
           <span>RAIB Pallets</span>
         </a>
         <p>Recycling At Its Best</p>
-        <p>© 2025 PT Leo Graha Sukses Primatama</p>
+        <p>© 2025 PT. Leo Graha Sukses Primatama</p>
       </footer>
     </main>
   )
