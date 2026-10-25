@@ -325,22 +325,22 @@ export default function App() {
 
       <section className="contact" id="kontak">
         {/* <p className="eyebrow light">Indonesia · International</p> */}
-        <h2>Kontak Kami</h2>
-        <a className="button lime-button" href="mailto:beny@raib-pallets.com?subject=Pemesanan%20/%20Pertanyaan%20Pallet%20RAIB">Pesan atau Tanya Sekarang <Arrow /></a>
-        <div className="contact-details">
-          <div className="contact-locations">
-            <div className="location-item">
-              <span>Kantor &amp; Pabrik</span>
-              <p>Jl. Imam Bonjol No. 265 Km.3, Karawaci, Tangerang</p>
-            </div>
-            <div className="location-item">
-              <span>Gudang</span>
-              <p>Sempor, Candi Binangun, Sukorejo, Pasuruan</p>
-            </div>
-          </div>
+        <div className="contact-heading-group">
+          <h2>Kontak Kami</h2>
           <div className="contact-qr-wrapper">
             <img src="/wa-code.jpeg" alt="WhatsApp RAIB Pallets" className="contact-qr-img" />
-            <p className="contact-qr-caption">Pindai Kode QR WhatsApp Kami</p>
+            <p className="contact-qr-caption">Kode QR untuk Pemesanan</p>
+          </div>
+        </div>
+
+        <div className="contact-locations">
+          <div className="location-item">
+            <span>Kantor &amp; Pabrik</span>
+            <p>Jl. Imam Bonjol No. 265 Km.3, Karawaci, Tangerang</p>
+          </div>
+          <div className="location-item">
+            <span>Gudang</span>
+            <p>Sempor, Candi Binangun, Sukorejo, Pasuruan</p>
           </div>
         </div>
       </section>
