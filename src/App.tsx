@@ -178,7 +178,7 @@ export default function App() {
         <div className="section-title">
           <div>
             {/* <p className="eyebrow">Pallet RAIB</p> */}
-            <h2>3 Model Produk Kami</h2>
+            <h2>Produk Kami</h2>
           </div>
         </div>
         <div className="product-grid">
