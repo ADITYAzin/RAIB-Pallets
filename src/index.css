@@ -84,7 +84,7 @@ dd { font-weight: 600; }
 .slider-caption-num { color: var(--ink); font-family: 'Manrope', monospace; font-size: 13px; font-weight: 700; letter-spacing: .08em; }
 .slider-caption-note { color: var(--muted); font-size: 13px; }
 .contact {
-  align-items: center;
+  align-items: end;
   background: #021526;
   color: white;
   display: grid;
@@ -95,10 +95,12 @@ dd { font-weight: 600; }
 .contact-heading-group {
   display: flex;
   flex-direction: column;
+  width: fit-content;
 }
 .contact-heading-group h2 {
   font-size: clamp(44px, 5vw, 72px);
-  max-width: 520px;
+  white-space: nowrap;
+  width: fit-content;
 }
 .contact-qr-wrapper {
   align-items: center;
