@@ -7,8 +7,8 @@ const products = [
 ]
 
 const benefits = [
-  ['01', 'Hemat Ruang', 'Memiliki desain Nestable dan lebih hemat ruang saat disimpan.'],
-  ['02', 'Ramah Lingkungan', 'Dapat didaur ulang kembali dan 100% plastik daur ulang.'],
+  ['01', 'Hemat Ruang', 'Memiliki desain nestable dan lebih hemat ruang saat disimpan.'],
+  ['02', 'Ramah Lingkungan', 'Terbuat dari 100% plastik daur ulang dan dapat didaur ulang kembali.'],
   ['03', 'Tahan Lama', 'Kuat terhadap benturan, lembap, dan bahan kimia.'],
   ['04', 'Hemat Biaya', 'Masa pakai panjang, biaya operasional lebih rendah.'],
 ]
