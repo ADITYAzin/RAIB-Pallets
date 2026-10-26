@@ -327,6 +327,17 @@ export default function App() {
         {/* <p className="eyebrow light">Indonesia · International</p> */}
         <div className="contact-heading-group">
           <h2>Kontak Kami</h2>
+        </div>
+
+        <div className="contact-locations">
+          <div className="location-item">
+            <span>Kantor &amp; Pabrik</span>
+            <p>Jl. Imam Bonjol No. 265 Km.3, Karawaci, Tangerang</p>
+          </div>
+          <div className="location-item">
+            <span>Gudang</span>
+            <p>Sempor, Candi Binangun, Sukorejo, Pasuruan</p>
+          </div>
           <a
             href="https://wa.me/message/AX667SIO6F4FP1?src=qr"
             target="_blank"
@@ -340,17 +351,6 @@ export default function App() {
               className="contact-wa-icon"
             />
           </a>
-        </div>
-
-        <div className="contact-locations">
-          <div className="location-item">
-            <span>Kantor &amp; Pabrik</span>
-            <p>Jl. Imam Bonjol No. 265 Km.3, Karawaci, Tangerang</p>
-          </div>
-          <div className="location-item">
-            <span>Gudang</span>
-            <p>Sempor, Candi Binangun, Sukorejo, Pasuruan</p>
-          </div>
         </div>
       </section>
 
