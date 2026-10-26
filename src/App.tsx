@@ -327,14 +327,15 @@ export default function App() {
         {/* <p className="eyebrow light">Indonesia · International</p> */}
         <div className="contact-heading-group">
           <h2>Kontak Kami</h2>
-          <div className="contact-qr-wrapper">
-            <img src="/wa-code.jpeg" alt="WhatsApp RAIB Pallets" className="contact-qr-img" />
-            <p className="contact-qr-caption">
-              <span>Kode</span>
-              <span>QR</span>
-              <span>Pemesanan</span>
-            </p>
-          </div>
+          <a
+            className="button lime-button contact-wa-btn"
+            href="https://wa.me/message/AX667SIO6F4FP1?src=qr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>Pemesanan melalui WhatsApp</span>
+            <Arrow />
+          </a>
         </div>
 
         <div className="contact-locations">
