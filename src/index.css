@@ -90,11 +90,12 @@ dd { font-weight: 600; }
   display: grid;
   gap: 8vw;
   grid-template-columns: .8fr 1.2fr;
-  padding: 120px 4vw 120px;
+  padding: 120px 4vw 64px;
 }
 .contact-heading-group {
   display: flex;
   flex-direction: column;
+  margin-top: 12px;
   width: fit-content;
 }
 .contact-heading-group h2 {
@@ -113,7 +114,7 @@ dd { font-weight: 600; }
 .contact-wa-link {
   align-self: flex-end;
   display: inline-flex;
-  margin-top: 32px;
+  margin-top: 64px;
   transition: transform 0.25s ease, opacity 0.25s ease;
   width: fit-content;
 }
@@ -185,10 +186,13 @@ footer { align-items: center; background: var(--ink); color: #8e958e; display: f
   .contact {
     gap: 48px;
     grid-template-columns: 1fr;
-    padding: 80px 5vw;
+    padding: 80px 5vw 64px;
+  }
+  .contact-heading-group {
+    margin-top: 0;
   }
   .contact-wa-link {
-    margin-top: 24px;
+    margin-top: 64px;
   }
   .contact-wa-icon {
     height: 48px;
