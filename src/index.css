@@ -84,7 +84,7 @@ dd { font-weight: 600; }
 .slider-caption-num { color: var(--ink); font-family: 'Manrope', monospace; font-size: 13px; font-weight: 700; letter-spacing: .08em; }
 .slider-caption-note { color: var(--muted); font-size: 13px; }
 .contact {
-  align-items: end;
+  align-items: start;
   background: #021526;
   color: white;
   display: grid;
