@@ -110,13 +110,20 @@ dd { font-weight: 600; }
 .lime-button:hover {
   background: #bbf82f;
 }
-.contact-wa-btn {
-  box-sizing: border-box;
-  font-size: clamp(12px, 1.1vw, 14px);
-  margin-top: 36px;
-  min-width: 100%;
-  white-space: nowrap;
-  width: 0;
+.contact-wa-link {
+  align-self: flex-end;
+  display: inline-flex;
+  margin-top: 32px;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  width: fit-content;
+}
+.contact-wa-link:hover {
+  transform: translateY(-3px) scale(1.06);
+}
+.contact-wa-icon {
+  display: block;
+  height: 56px;
+  width: 56px;
 }
 .contact-locations {
   display: flex;
@@ -179,11 +186,12 @@ footer { align-items: center; background: var(--ink); color: #8e958e; display: f
     grid-template-columns: 1fr;
     padding: 80px 5vw;
   }
-  .contact-wa-btn {
-    font-size: 11.5px;
-    gap: 8px;
+  .contact-wa-link {
     margin-top: 24px;
-    padding: 12px 14px;
+  }
+  .contact-wa-icon {
+    height: 48px;
+    width: 48px;
   }
   .location-item {
     padding: 22px 0 28px;

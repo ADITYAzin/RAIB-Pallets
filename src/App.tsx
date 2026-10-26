@@ -328,13 +328,17 @@ export default function App() {
         <div className="contact-heading-group">
           <h2>Kontak Kami</h2>
           <a
-            className="button lime-button contact-wa-btn"
             href="https://wa.me/message/AX667SIO6F4FP1?src=qr"
             target="_blank"
             rel="noopener noreferrer"
+            className="contact-wa-link"
+            aria-label="Hubungi kami melalui WhatsApp"
           >
-            <span>Pemesanan melalui WhatsApp</span>
-            <Arrow />
+            <img
+              src="/logos--whatsapp-icon.svg"
+              alt="WhatsApp"
+              className="contact-wa-icon"
+            />
           </a>
         </div>
 
