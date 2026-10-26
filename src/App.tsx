@@ -339,7 +339,7 @@ export default function App() {
             <p>Sempor, Candi Binangun, Sukorejo, Pasuruan</p>
           </div>
           <a
-            href="https://wa.me/message/AX667SIO6F4FP1?src=qr"
+            href="https://wa.me/08887770007"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-wa-link"
