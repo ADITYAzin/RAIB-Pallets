@@ -1,9 +1,39 @@
 import { useState, useEffect } from 'react'
 
 const products = [
-  { model: 'SP25', dimension: '120 × 100 × 15 cm', staticLoad: '5.000 kg', dynamicLoad: '2.000 kg', access: '2 arah', image: '/top-sp25.png' },
-  { model: 'SP16', dimension: '120 × 100 × 15 cm', staticLoad: '3.000 kg', dynamicLoad: '1.500 kg', access: '4 arah', image: '/top-sp16.png' },
-  { model: 'GP15', dimension: '120 × 100 × 15 cm', staticLoad: '1.500 kg', dynamicLoad: '1.000 kg', access: '4 arah', image: '/top-gp15.png' },
+  {
+    model: 'SP25',
+    dimension: '120 × 100 × 15 cm',
+    weight: '25 kg',
+    staticLoad: '5.000 kg',
+    dynamicLoad: '2.000 kg',
+    rackingLoad: '1.000 kg',
+    access: '2 arah',
+    color: 'Abu-abu cerah',
+    image: '/top-sp25.png',
+  },
+  {
+    model: 'SP16',
+    dimension: '120 × 100 × 15 cm',
+    weight: '16 kg',
+    staticLoad: '3.000 kg',
+    dynamicLoad: '1.500 kg',
+    rackingLoad: '- kg',
+    access: '4 arah',
+    color: 'Abu-abu cerah',
+    image: '/top-sp16.png',
+  },
+  {
+    model: 'GP15',
+    dimension: '120 × 100 × 15 cm',
+    weight: '15 kg',
+    staticLoad: '1.500 kg',
+    dynamicLoad: '1.000 kg',
+    rackingLoad: '- kg',
+    access: '4 arah',
+    color: 'Abu-abu gelap',
+    image: '/top-gp15.png',
+  },
 ]
 
 const benefits = [
@@ -245,9 +275,12 @@ export default function App() {
               <h3>{product.model}</h3>
               <dl>
                 <div><dt>Dimensi</dt><dd>{product.dimension}</dd></div>
+                <div><dt>Berat</dt><dd>{product.weight}</dd></div>
                 <div><dt>Kekuatan statis</dt><dd>{product.staticLoad}</dd></div>
                 <div><dt>Kekuatan dinamis</dt><dd>{product.dynamicLoad}</dd></div>
-                <div><dt>Akses forklift dan handpallet</dt><dd>{product.access}</dd></div>
+                <div><dt>Kekuatan di rack</dt><dd>{product.rackingLoad}</dd></div>
+                <div><dt>Akses forklift & handpallet</dt><dd>{product.access}</dd></div>
+                <div><dt>Warna</dt><dd>{product.color}</dd></div>
               </dl>
             </article>
           ))}
